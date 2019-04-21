@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_appi">
+    <ImageView
+        android:src="@drawable/logogrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_margin="30dp" />
+    <Button
+        android:text="play"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonPlay"
+        android:background="@drawable/barre_menu"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="10dp" />
+    <Button
+        android:text="saved"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonSaved"
+        android:background="@drawable/barre_menu"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="10dp" />
+    <Button
+        android:text="settings"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonSettings"
+        android:background="@drawable/barre_menu"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="10dp" />
+    <Button
+        android:text="help"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonHelps"
+        android:background="@drawable/barre_menu"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="10dp" />
+</LinearLayout>

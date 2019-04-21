@@ -1,0 +1,9 @@
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\Sudoku.Android.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\Java.Interop.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\System.Core.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\System.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\System.Xml.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\mscorlib.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.Android\obj\Release\android\assets\Mono.Security.dll

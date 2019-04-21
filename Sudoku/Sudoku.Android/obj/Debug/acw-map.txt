@@ -1,0 +1,24 @@
+Sudoku.Droid.Helps, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.Helps
+Sudoku.Droid.Helps, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.Helps
+Sudoku.Droid.Helps;md53e7f8409196109d655b151976a9e520e.Helps
+sudoku.droid.Helps;md53e7f8409196109d655b151976a9e520e.Helps
+Sudoku.Droid.ImageAdapter, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.ImageAdapter
+Sudoku.Droid.ImageAdapter, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.ImageAdapter
+Sudoku.Droid.ImageAdapter;md53e7f8409196109d655b151976a9e520e.ImageAdapter
+sudoku.droid.ImageAdapter;md53e7f8409196109d655b151976a9e520e.ImageAdapter
+Sudoku.Droid.MainActivity, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.MainActivity
+Sudoku.Droid.MainActivity, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.MainActivity
+Sudoku.Droid.MainActivity;md53e7f8409196109d655b151976a9e520e.MainActivity
+sudoku.droid.MainActivity;md53e7f8409196109d655b151976a9e520e.MainActivity
+Sudoku.Droid.MyGrid, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.MyGrid
+Sudoku.Droid.MyGrid, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.MyGrid
+Sudoku.Droid.MyGrid;md53e7f8409196109d655b151976a9e520e.MyGrid
+sudoku.droid.MyGrid;md53e7f8409196109d655b151976a9e520e.MyGrid
+Sudoku.Droid.Play, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.Play
+Sudoku.Droid.Play, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.Play
+Sudoku.Droid.Play;md53e7f8409196109d655b151976a9e520e.Play
+sudoku.droid.Play;md53e7f8409196109d655b151976a9e520e.Play
+Sudoku.Droid.Settings, Sudoku.Android;md53e7f8409196109d655b151976a9e520e.Settings
+Sudoku.Droid.Settings, Sudoku.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53e7f8409196109d655b151976a9e520e.Settings
+Sudoku.Droid.Settings;md53e7f8409196109d655b151976a9e520e.Settings
+sudoku.droid.Settings;md53e7f8409196109d655b151976a9e520e.Settings

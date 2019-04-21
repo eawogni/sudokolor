@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{DAA56107-C713-4005-92B6-2A515DC40487}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sudoku.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Sudoku.iOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchLink>SdkOnly</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%402x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%403x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-76.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-76%402x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%402x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%403x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-40.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-40%402x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-40%403x.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="Resources\ITunesArtwork" />
+    <ITunesArtwork Include="Resources\ITunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdaptateurCelluleGrille.cs" />
+    <Compile Include="Cellule.cs" />
+    <Compile Include="CollectionDelegate.cs" />
+    <Compile Include="ExisteSauvegarde.cs" />
+    <Compile Include="GameAudioManager.cs" />
+    <Compile Include="HelpController.cs" />
+    <Compile Include="HelpController.designer.cs">
+      <DependentUpon>HelpController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISauvableSudoKolor.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="PlayyController.cs" />
+    <Compile Include="PlayyController.designer.cs">
+      <DependentUpon>PlayyController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsController.cs" />
+    <Compile Include="SettingsController.designer.cs">
+      <DependentUpon>SettingsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SudoKolorDataXml.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\barre_menu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg_appi.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg_menu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\c9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\caseVoid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cm9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logogrand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\caseVoidR.png" />
+    <BundleResource Include="Resources\barreH.png" />
+    <BundleResource Include="Resources\barreV.png" />
+    <Content Include="Son\neigequitombe.mp3" />
+    <Content Include="Son\Shine.mp3" />
+  </ItemGroup>
+  <Import Project="..\Sudoku\Sudoku.projitems" Label="Shared" Condition="Exists('..\Sudoku\Sudoku.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

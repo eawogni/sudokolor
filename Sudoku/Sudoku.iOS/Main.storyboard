@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="13952">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5332">
+            <objects>
+                <viewController id="5333" sceneMemberID="viewController" customClass="SettingsController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5330"/>
+                        <viewControllerLayoutGuide type="bottom" id="5331"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5334">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.2196078431372549" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5337" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="logogrand.png">
+                                <rect key="frame" x="101" y="160" width="218" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="5338" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="306" y="406" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10792" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="20" y="411" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="tintColor" colorSpace="calibratedRGB" red="0.67450980392156867" green="0.83137254901960789" blue="0.97647058823529409" alpha="1"/>
+                    </view>
+                    <connections>
+                        <outlet property="Settings" destination="5334" id="name-outlet-5334"/>
+                        <outlet property="Music" destination="5338" id="name-outlet-5338"/>
+                    </connections>
+                    <navigationItem title="Settings" id="6786" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5335" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="-1037"/>
+        </scene>
+        <scene sceneID="6194">
+            <objects>
+                <viewController id="6195" sceneMemberID="viewController" customClass="PlayyController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6192"/>
+                        <viewControllerLayoutGuide type="bottom" id="6193"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6196">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.2196078431372549" alpha="1"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6545" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="59" y="493" width="32" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm1.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt1_TouchUpInside:" destination="6195" id="6628" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6546" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="226" y="493" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm4.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt4_TouchUpInside:" destination="6195" id="6631" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6547" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="59" y="529" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm6.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt6_TouchUpInside:" destination="6195" id="6633" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6549" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="115" y="493" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm2.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt2_TouchUpInside:" destination="6195" id="6629" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6550" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="281" y="493" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm5.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt5_TouchUpInside:" destination="6195" id="6632" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6551" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="115" y="529" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm7.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt7_TouchUpInside:" destination="6195" id="6634" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6553" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="171" y="493" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm3.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt3_TouchUpInside:" destination="6195" id="6630" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6554" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="171" y="529" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm8.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt8_TouchUpInside:" destination="6195" id="6635" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6556" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="226" y="529" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="cm9.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bt9_TouchUpInside:" destination="6195" id="6636" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6557" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="281" y="529" width="32" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="caseVoid.png">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0.52549019607843139" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtVoid_TouchUpInside:" destination="6195" id="6637" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6558" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="565" width="414" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" backgroundImage="bg_menu.PNG" title="Validate">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.67450980392156867" green="0.83137254901960789" blue="0.97647058823529409" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtValider_TouchUpInside:" destination="6195" id="27509" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="28727" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="603" width="414" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" backgroundImage="bg_menu.PNG" title="Save">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.67450980392156867" green="0.83137254901960789" blue="0.97647058823529409" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtValider_TouchUpInside:" destination="28729" id="28728" eventType="touchUpInside"/>
+                                    <action selector="BtSauver_TouchUpInside:" destination="6195" id="29241" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="31767" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="barreH.png">
+                                <rect key="frame" x="38" y="188" width="292" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="31768" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="barreH.png">
+                                <rect key="frame" x="37" y="278" width="294" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="31769" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="barreV.png">
+                                <rect key="frame" x="132" y="101" width="6" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="31770" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="barreV.png">
+                                <rect key="frame" x="231" y="101" width="6" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="31771" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0" minimumInteritemSpacing="0" id="31773">
+                                    <size key="itemSize" width="30" height="30"/>
+                                    <size key="headerReferenceSize" width="0" height="0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <rect key="frame" x="38" y="100" width="333" height="362"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                <cells>
+                                    <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" id="31772" reuseIdentifier="Cell" opaque="NO">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <rect key="contentStretch" x="0" y="0.0" width="1" height="1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <size key="customSize" width="35" height="35"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="0"/>
+                            </collectionView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="Playy" destination="6196" id="name-outlet-6196"/>
+                        <outlet property="bt1" destination="6545" id="name-outlet-6545"/>
+                        <outlet property="bt2" destination="6549" id="name-outlet-6549"/>
+                        <outlet property="bt3" destination="6553" id="name-outlet-6553"/>
+                        <outlet property="bt4" destination="6546" id="name-outlet-6546"/>
+                        <outlet property="bt5" destination="6550" id="name-outlet-6550"/>
+                        <outlet property="bt6" destination="6547" id="name-outlet-6547"/>
+                        <outlet property="bt7" destination="6551" id="name-outlet-6551"/>
+                        <outlet property="bt8" destination="6554" id="name-outlet-6554"/>
+                        <outlet property="bt9" destination="6556" id="name-outlet-6556"/>
+                        <outlet property="btVoid" destination="6557" id="name-outlet-6557"/>
+                        <outlet property="btValider" destination="6558" id="name-outlet-6558"/>
+                        <outlet property="btSauver" destination="28727" id="name-outlet-28727"/>
+                        <outlet property="grille" destination="31771" id="name-outlet-31771"/>
+                    </connections>
+                    <navigationItem title="Play" id="14942" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6197" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="-323"/>
+        </scene>
+        <scene sceneID="6732">
+            <objects>
+                <viewController id="6733" sceneMemberID="viewController" customClass="HelpController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6730"/>
+                        <viewControllerLayoutGuide type="bottom" id="6731"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6734">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.2196078431372549" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6761" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="logogrand.png">
+                                <rect key="frame" x="98" y="110" width="218" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="30841" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="10">
+                                <rect key="frame" x="66" y="303" width="294" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <color key="highlightedColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                <string key="text">A complete sudoku grid is an array of 9 squares out of 9, subdivided into 9 squares of 3 squares aside.Each box contains only one color (there are 8 different colors.Therefore, taken alone, a line, a column or a square of 3 out of 3 can not contain several times the same color.</string>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.2196078431372549" alpha="1"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="Help" destination="6734" id="name-outlet-6734"/>
+                    </connections>
+                    <navigationItem title="Help" id="6812" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6735" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246" y="673"/>
+        </scene>
+        <scene sceneID="13374">
+            <objects>
+                <viewController id="13375" sceneMemberID="viewController" customClass="ViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="13372"/>
+                        <viewControllerLayoutGuide type="bottom" id="13373"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="13376">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="tintColor" colorSpace="calibratedRGB" red="0.67450980392156867" green="0.83137254901960789" blue="0.97647058823529409" alpha="1"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="13379" translatesAutoresizingMaskIntoConstraints="NO" image="logogrand.png" fixedFrame="YES">
+                                <rect key="frame" x="98" y="117" width="218" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="13380" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="120" y="354" width="146" height="30"/>
+                                <state key="normal" title="PLAY" backgroundImage="barre_menu.PNG">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="31392" destination="6195" kind="show"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="13398" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="121" y="430" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="SETTINGS" backgroundImage="barre_menu.PNG">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="31456" destination="5333" kind="show"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" id="13925" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="47" y="-167" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="13926"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14839" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="121" y="392" width="145" height="30"/>
+                                <state key="normal" title="SAVED" backgroundImage="barre_menu.PNG">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnSaved_TouchUpInside:" destination="13375" id="28459" eventType="touchUpInside"/>
+                                    <segue id="31418" destination="6195" kind="push"/>
+                                </connections>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14884" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="120" y="470" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HELP" backgroundImage="barre_menu.PNG">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue id="31478" destination="6733" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.2196078431372549" alpha="1"/>
+                    </view>
+                    <navigationItem id="13938" key="navigationItem" title="SudoKolor"/>
+                    <connections>
+                        <outlet property="btnPlay" destination="13380" id="name-outlet-13380"/>
+                        <outlet property="btnSet" destination="13398" id="name-outlet-13398"/>
+                        <outlet property="btnSaved" destination="14839" id="name-outlet-14839"/>
+                        <outlet property="btnHelps" destination="14884" id="name-outlet-14884"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13377" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-237" y="-222"/>
+        </scene>
+        <scene sceneID="13951">
+            <objects>
+                <navigationController id="13952" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="13954">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="14007" destination="13375" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13955" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-844" y="-383"/>
+        </scene>
+        <scene sceneID="31759">
+            <objects>
+                <viewController id="31760" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="31757"/>
+                        <viewControllerLayoutGuide type="bottom" id="31758"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="31761">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="31764" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0" minimumInteritemSpacing="0" id="31766">
+                                    <size key="itemSize" width="30" height="30"/>
+                                    <size key="headerReferenceSize" width="0" height="0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <rect key="frame" x="40" y="80" width="333" height="405"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.21568627450980393" green="0.2" blue="0.23921568627450981" alpha="1"/>
+                                <cells>
+                                    <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" id="31765" reuseIdentifier="Cell" opaque="NO">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <rect key="contentStretch" x="0" y="0.0" width="1" height="1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <size key="customSize" width="40" height="40"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </collectionView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31762" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389" y="-588"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="barre_menu.PNG" width="166" height="23"/>
+        <image name="bg_appi.PNG" width="57" height="36"/>
+        <image name="bg_menu.PNG" width="254" height="32"/>
+        <image name="c1.png" width="60" height="60"/>
+        <image name="c2.png" width="60" height="60"/>
+        <image name="c3.png" width="60" height="60"/>
+        <image name="c4.png" width="60" height="60"/>
+        <image name="c5.png" width="60" height="60"/>
+        <image name="c6.png" width="60" height="60"/>
+        <image name="c7.png" width="60" height="60"/>
+        <image name="c8.png" width="60" height="60"/>
+        <image name="c9.png" width="60" height="60"/>
+        <image name="caseVoid.png" width="60" height="60"/>
+        <image name="cm1.png" width="60" height="60"/>
+        <image name="cm2.png" width="60" height="60"/>
+        <image name="cm3.png" width="60" height="60"/>
+        <image name="cm4.png" width="60" height="60"/>
+        <image name="cm5.png" width="60" height="60"/>
+        <image name="cm6.png" width="60" height="60"/>
+        <image name="cm7.png" width="60" height="60"/>
+        <image name="cm8.png" width="60" height="60"/>
+        <image name="cm9.png" width="60" height="60"/>
+        <image name="Icon.png" width="72" height="72"/>
+        <image name="logo.PNG" width="127" height="110"/>
+        <image name="logogrand.png" width="508" height="440"/>
+        <image name="caseVoidR.png" width="60" height="60"/>
+        <image name="barreH.png" width="601" height="8"/>
+        <image name="barreV.png" width="8" height="601"/>
+    </resources>
+    <color key="tintColor" colorSpace="calibratedRGB" red="0.67450980392156867" green="0.83137254901960789" blue="0.97647058823529409" alpha="1"/>
+</document>

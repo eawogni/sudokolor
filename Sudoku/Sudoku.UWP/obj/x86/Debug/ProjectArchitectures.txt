@@ -1,0 +1,1 @@
+C:\Users\Emmanuel\Downloads\Sudokolor_ProjetTut\Sudoku\Sudoku\Sudoku.UWP\Sudoku.UWP.csproj;x86
